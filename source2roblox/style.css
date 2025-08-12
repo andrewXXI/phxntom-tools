@@ -1,0 +1,81 @@
+* {
+    cursor: default;
+    transition: all 200ms ease-in-out;
+}
+
+body {
+    background-image: url("/assets/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: rgb(233, 0, 233);
+}
+
+.header {
+    font-size: 20px;
+    text-shadow: 0px 0px 10px purple;
+}
+
+.header:hover {
+    
+    text-shadow: 0px 0px 15px rgb(198, 0, 198);
+}
+
+.para {
+    width: 400px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    text-shadow: 0px 0px 5px rgb(128, 128, 128);
+}
+
+.download {
+    border: 1px solid purple;
+    background-color: rgb(97, 0, 97);
+    color: white;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 0px 10px purple;
+    margin: 10px;
+    letter-spacing: 0.6px;
+}
+
+.download:hover {
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px purple;
+    border: 1px solid rgb(201, 0, 201);
+    background-color: rgb(84, 0, 84);
+    letter-spacing: 2px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.739);
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    transition: all 200ms ease-in-out;
+    z-index: 2;
+}
+
+.message-container:hover {
+    background-color: rgba(0, 0, 0, 0.859);
+}
+
